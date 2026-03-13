@@ -8,25 +8,25 @@ using namespace std;
     switch( day){
         case 1:
         cout << "monday";
-        return 0;
+        break;
         case 2:
         cout << "tuesday";
-        return 0;
+        break;
         case 3:
         cout << "wednesday";
-        return 0;
+        break;
         case 4:
         cout << "thursday";
-        return 0;
+       break;
         case 5:
         cout << "friday";
-        return 0;
+        break;
         case 6:
         cout << "saturday";
-        return 0;
+        break;
         case 7:
         cout << "sunday";
-        return 0;
+        break;
         default:
         cout<< "error generated";
 
