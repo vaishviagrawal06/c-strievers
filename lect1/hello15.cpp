@@ -8,11 +8,28 @@ using namespace std;
 //used to use same code multiple times
 
 
-    void name(){
-        cout<<"vaishvi";
+//     void name(){
+//         cout<<"vaishvi";
+//     }
+// int main()
+// {
+//     int name1;
+//     cin>>name1;
+//     name();
+// return 0;
+// }
+
+    void printname(string name){
+        cout<<"vaishvi "<<name;
     }
 int main()
 {
-    name();
+    string name;
+    cin>> name;
+    printname(name);
+
+      string name2;
+    cin>> name2;
+    printname(name2);
 return 0;
 }
