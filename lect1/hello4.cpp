@@ -1,7 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// char
+// char is used for single character
+
 // int main()
 // {
     
