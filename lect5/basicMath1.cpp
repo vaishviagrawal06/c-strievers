@@ -13,5 +13,12 @@
  }
  int main()
  {
-    Count(n);
+    int n ;
+    cout<<"enter numbers:";
+    cin>>n;
+    
+    int result = Count(n);
+    cout<<"number of digits="<<result;
+   
+    return 0;
  }
