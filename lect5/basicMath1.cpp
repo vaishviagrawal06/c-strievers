@@ -7,7 +7,7 @@
     {
         int lastDigit = n%10;
         count ++;
-        n=n/10;
+        n=n/10;  // if n is divisible by 0 then time omplexity if O(log10(n))
     }
     return count;
  }
