@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+//PALLINDROME OR NOT
 int main(){
     int n;
     cin>>n;
