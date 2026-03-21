@@ -1,13 +1,17 @@
 #include<bits/stdc++.h>
 using namespace std;
-
-void print()
+int count = 0;
+void print(int count)
 {
- cout<<"hello world"<<endl;
+    if(count ==3)
+    return;
+    count++;
+    cout<<count<<endl;
  print();
 }
 
 int main()
 {
     print();
+    return 0;
 }
